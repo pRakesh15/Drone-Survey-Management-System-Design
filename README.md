@@ -34,6 +34,46 @@ The Drone Survey Management System is a scalable platform designed to help large
 - **Deployment:** Docker (Planned)
 - **Mapping:** Mapbox / Leaflet (Planned)
 
+- drone-survey-management-system/
+├── config/
+│   └── database.js
+├── controllers/
+│   ├── droneController.js
+│   ├── locationController.js
+│   ├── missionController.js
+│   ├── organizationController.js
+│   ├── surveyReportController.js
+│   └── userController.js
+├── middleware/
+│   └── authMiddleware.js
+├── models/
+│   ├── droneModel.js
+│   ├── locationModel.js
+│   ├── missionModel.js
+│   ├── organizationModel.js
+│   ├── surveyReportModel.js
+│   └── userModel.js
+├── routes/
+│   ├── droneRoutes.js
+│   ├── locationRoutes.js
+│   ├── missionRoutes.js
+│   ├── organizationRoutes.js
+│   ├── surveyReportRoutes.js
+│   └── userRoutes.js
+├── services/
+│   ├── droneService.js
+│   ├── locationService.js
+│   ├── missionService.js
+│   ├── organizationService.js
+│   ├── surveyReportService.js
+│   └── userService.js
+├── utils/
+│   ├── missionPatterns.js
+│   └── validation.js
+├── app.js
+├── package.json
+└── .env
+
 ## API Endpoints
 ### 🔐 Authentication
 | Method | Endpoint | Description |
